@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .products {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    min-width: 75%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+  }
+  
+  li {
+    margin: 10px auto;
+  }
